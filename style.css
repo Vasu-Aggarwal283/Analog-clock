@@ -1,0 +1,99 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-color:rgb(213 240 219) ;
+}
+header{
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 5.7rem;
+    width: 100%;
+    background-color: rgb(7 151 39);
+}
+
+.heading img{
+    width: 70px;
+    height: 70px ;
+    border-radius: 70px;
+    margin: 11px 9px;
+}
+
+.heading h1{
+    margin-right: 2rem;
+    font-family: 'Macondo', cursive;
+    background-color: rgb(7 151 39);
+    font-size: 3rem;
+    color: white;
+}
+
+header a{
+    font-style: none;
+    text-decoration: none;
+    background-color: rgb(7 151 39);
+    font-size: 1.5rem;
+    margin: 6px 6px ;
+    color: white;
+    font-family: 'Merriweather', serif;
+}
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-image: url("clock.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 40vw;
+    width: 40vw;
+    margin-top: 7%;
+    margin-left: 50%;
+    transform: translateX(-50%);
+}
+
+img {
+    width: 40vw;
+    height: 40vw;
+}
+
+.hour {
+    height: 20%;
+    width: 2%;
+    border: 2px solid black;
+    BACKGROUND: black;
+    BORDER-RADIUS: 7PX;
+    MARGIN-TOP: 30%;
+    MARGIN-LEFT: -0.2%;
+    position: absolute;
+    transform-origin: bottom;
+
+}
+
+.minute {
+    height: 27%;
+    width: 2%;
+    border: 2px solid black;
+    BACKGROUND: BLACK;
+    BORDER-RADIUS: 7PX;
+    MARGIN-TOP: 22%;
+    MARGIN-LEFT: -0.2%;
+    position: absolute;
+    transform-origin: bottom;
+}
+
+.second {
+    height: 35%;
+    width: 2%;
+    border: 2px solid black;
+    BACKGROUND: black;
+    BORDER-RADIUS: 7PX;
+    MARGIN-TOP: 13%;
+    MARGIN-LEFT: -1%;
+    position: absolute;
+    transform-origin: bottom;
+}
